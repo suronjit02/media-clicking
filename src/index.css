@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
-@plugin "daisyui"{
-   themes: dark --default, light --prefersdark;
- }
+
+@plugin "daisyui" {
+  themes: dark --default, light --prefersdark;
+}
+
+
+.saira-font {
+  font-family: "Saira Stencil", sans-serif;
+  font-style: normal;
+
+}
+
+.primary-txt {
+  color: #800080;
+}
+
+.primary-bg {
+  background-color: #800080;
+}
