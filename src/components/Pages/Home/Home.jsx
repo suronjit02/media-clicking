@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Video from "./Video";
 import ServiceSection from "./ServiceSection";
+import CapabilitiesSection from "./CapabilitiesSection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <About />
       <Video />
       <ServiceSection />
+      <CapabilitiesSection />
     </div>
   );
 };

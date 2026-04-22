@@ -85,7 +85,7 @@ const ServiceSection = () => {
         </p>
         <h2 className="text-5xl font-extrabold saira-font">
           Our core{" "}
-          <span className="bg-gradient-to-r from-purple-700 to-purple-500 bg-clip-text text-transparent ">
+          <span className="bg-gradient-to-r from-[#800080] to-purple-500 bg-clip-text text-transparent ">
             Services
           </span>
         </h2>
