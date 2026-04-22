@@ -4,6 +4,7 @@ import About from "./About";
 import Video from "./Video";
 import ServiceSection from "./ServiceSection";
 import CapabilitiesSection from "./CapabilitiesSection";
+import JoinSection from "./JoinSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Video />
       <ServiceSection />
       <CapabilitiesSection />
+      <JoinSection />
     </div>
   );
 };
