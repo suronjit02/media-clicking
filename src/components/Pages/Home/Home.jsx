@@ -7,6 +7,7 @@ import CapabilitiesSection from "./CapabilitiesSection";
 import JoinSection from "./JoinSection";
 import ProvenResults from "./ProvenResults";
 import Testimonials from "./Testimonials";
+import Insights from "./Insights";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <JoinSection />
       <ProvenResults />
       <Testimonials />
+      <Insights />
     </div>
   );
 };
