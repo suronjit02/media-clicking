@@ -5,6 +5,7 @@ import Video from "./Video";
 import ServiceSection from "./ServiceSection";
 import CapabilitiesSection from "./CapabilitiesSection";
 import JoinSection from "./JoinSection";
+import ProvenResults from "./ProvenResults";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ServiceSection />
       <CapabilitiesSection />
       <JoinSection />
+      <ProvenResults />
     </div>
   );
 };
