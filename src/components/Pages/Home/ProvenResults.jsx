@@ -91,7 +91,7 @@ const CaseCard = ({ item, reverse }) => (
 
 const ProvenResults = () => {
   return (
-    <section className="relative w-full overflow-hidden py-24 px-6 md:px-16">
+    <section className="relative w-full overflow-hidden py-16 md:py-24 px-5 md:px-16">
       {/* Video Background */}
       <div className="absolute inset-0 -z-10">
         <video
@@ -114,7 +114,7 @@ const ProvenResults = () => {
           Work + Wins
         </p>
 
-        <h2 className="saira-font text-5xl md:text-6xl font-extrabold text-white mb-5">
+        <h2 className="saira-font text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-5">
           Proven{" "}
           <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Results

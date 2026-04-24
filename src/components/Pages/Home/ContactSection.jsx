@@ -5,24 +5,23 @@ import { MdArrowOutward, MdOutlineMailOutline } from "react-icons/md";
 
 const ContactSection = () => {
   return (
-    <section className="text-center w-full ">
+    <section className="text-center w-full px-5 md:px-0">
       {/* heading */}
-      <div className="mb-15">
+      <div className="mb-10 md:mb-15">
         <p className="text-xs uppercase font-bold tracking-widest primary-txt mb-5">
           Contact Us
         </p>
-
-        <h2 className="saira-font text-5xl md:text-5xl font-extrabold">
+        <h2 className="saira-font text-4xl md:text-5xl font-extrabold">
           Let's <span className="primary-txt">Connect</span>
         </h2>
-        <p className="text-gray-600 text-lg text-center mt-5 max-w-xl mx-auto">
+        <p className="text-gray-600 text-base md:text-lg text-center mt-5 max-w-xl mx-auto">
           Ready to elevate your brand? Get in touch with our team of strategists
           and creatives today.
         </p>
       </div>
 
       {/* card section */}
-      <div className="flex gap-5 max-w-6xl mx-auto">
+      <div className="flex flex-col md:flex-row gap-5 max-w-6xl mx-auto">
         {/* 1st card */}
         <div className="flex-1 flex flex-col items-start gap-5 text-left border border-gray-300 p-10 rounded-2xl bg-base-200">
           <h2 className="text-2xl mb-4 font-bold">Contact Information</h2>

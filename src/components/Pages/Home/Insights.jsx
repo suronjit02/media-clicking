@@ -27,29 +27,28 @@ const Insights = () => {
     },
   ];
   return (
-    <section className="w-full bg-base-200 flex flex-col gap-20 py-30">
+    <section className="w-full bg-base-200 flex flex-col gap-10 md:gap-20 py-16 md:py-30 px-5 md:px-0">
       {/* text content */}
-      <div className="flex justify-between items-end w-full max-w-6xl mx-auto">
-        {" "}
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-end w-full max-w-6xl mx-auto gap-5">
         {/* left */}
         <div className="flex flex-col items-start justify-between gap-5">
-          <p className="text-sm uppercase font-bold tracking-widest primary-txt ">
+          <p className="text-sm uppercase font-bold tracking-widest primary-txt">
             Our Insights
           </p>
-          <h2 className="text-5xl font-extrabold saira-font flex gap-3">
-            Thought <span className="text-[#800080] ">Leadership</span>
+          <h2 className="text-3xl md:text-5xl font-extrabold saira-font flex gap-3">
+            Thought <span className="text-[#800080]">Leadership</span>
           </h2>
         </div>
         {/* right */}
-        <div className=" flex">
-          <Link className="flex  max-w-60 text-md font-bold text-[#800080] underline">
+        <div className="flex">
+          <Link className="flex max-w-60 text-md font-bold text-[#800080] underline">
             View all article
           </Link>
         </div>
       </div>
 
       {/* cards */}
-      <div className="grid grid-cols-3 gap-5 max-w-6xl mx-auto ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto w-full">
         {insights.map((insight) => (
           //   cards
           <div

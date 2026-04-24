@@ -12,7 +12,7 @@ import ContactSection from "./ContactSection";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-25">
+    <div className="flex flex-col gap-16 md:gap-25">
       <Hero />
       <About />
       <Video />

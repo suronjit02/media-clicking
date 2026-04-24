@@ -38,24 +38,23 @@ const joinOpenings = [
 
 const JoinSection = () => {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col gap-15">
-      {/*text content */}
-      <div className="flex justify-between items-end">
-        {" "}
+    <section className="max-w-7xl mx-auto flex flex-col gap-10 md:gap-15 px-5 md:px-0">
+      {/* text content */}
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
         <div className="flex-1 flex flex-col items-start justify-between gap-5">
-          <p className="text-sm uppercase font-bold tracking-widest primary-txt ">
+          <p className="text-sm uppercase font-bold tracking-widest primary-txt">
             Join Our Team
           </p>
-          <h2 className="text-5xl font-extrabold saira-font">
-            Join the <span className="text-[#800080] ">MediaClicking</span>
+          <h2 className="text-3xl md:text-5xl font-extrabold saira-font">
+            Join the <span className="text-[#800080]">MediaClicking</span>
             <br /> Team
           </h2>
-          <p className="text-gray-600 text-lg text-left">
+          <p className="text-gray-600 text-base md:text-lg text-left">
             We are constantly seeking creative minds, data analysts, and
             innovators. Explore our open positions and internships.
           </p>
         </div>
-        <div className="flex-1 flex justify-end">
+        <div className="flex-1 flex md:justify-end">
           <Link className="flex btn rounded-full max-w-60 text-md font-bold bg-transparent border-2 border-pink-200 text-[#800080] hover:border-none hover:bg-[#800080] hover:text-white transition-colors duration-300 py-5 px-7">
             VIEW ALL OPENINGS
           </Link>
@@ -63,7 +62,7 @@ const JoinSection = () => {
       </div>
 
       {/* cards */}
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {joinOpenings.map((item) => {
           const Icon = item.icon;
           return (

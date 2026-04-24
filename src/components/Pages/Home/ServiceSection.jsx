@@ -78,18 +78,18 @@ const services = [
 
 const ServiceSection = () => {
   return (
-    <section className="max-w-6xl mx-auto">
-      <div className="flex flex-col items-center justify-between gap-4 mb-15">
-        <p className="text-sm uppercase font-bold tracking-widest primary-txt ">
+    <section className="max-w-6xl mx-auto px-5 md:px-0">
+      <div className="flex flex-col items-center justify-between gap-4 mb-10 md:mb-15">
+        <p className="text-sm uppercase font-bold tracking-widest primary-txt">
           What We Do
         </p>
-        <h2 className="text-5xl font-extrabold saira-font">
+        <h2 className="text-3xl md:text-5xl font-extrabold saira-font text-center">
           Our core{" "}
-          <span className="bg-gradient-to-r from-[#800080] to-purple-500 bg-clip-text text-transparent ">
+          <span className="bg-gradient-to-r from-[#800080] to-purple-500 bg-clip-text text-transparent">
             Services
           </span>
         </h2>
-        <p className="text-gray-600 text-lg max-w-2xl text-center">
+        <p className="text-gray-600 text-base md:text-lg max-w-2xl text-center">
           MediaClicking is a full-service media and communications agency
           delivering integrated solutions across strategy, creativity,
           analytics, and execution.

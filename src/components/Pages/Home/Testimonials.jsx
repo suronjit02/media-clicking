@@ -3,14 +3,13 @@ import { SiComma } from "react-icons/si";
 
 const Testimonials = () => {
   return (
-    <section className="text-center mb-16 max-w-6xl mx-auto">
+    <section className="text-center mb-16 max-w-6xl mx-auto px-5 md:px-0">
       {/* heading */}
-      <div className="mb-15">
+      <div className="mb-10 md:mb-15">
         <p className="text-xs uppercase font-bold tracking-widest primary-txt mb-3">
           Work + Wins
         </p>
-
-        <h2 className="saira-font text-5xl md:text-6xl font-extrabold">
+        <h2 className="saira-font text-4xl md:text-5xl lg:text-6xl font-extrabold">
           Trusted by{" "}
           <span className="primary-txt">
             Industry <br />
@@ -86,20 +85,20 @@ const Testimonials = () => {
         <p className=" font-bold text-sm tracking-wider text-gray-500 mb-10">
           Empowering brands worldwide
         </p>
-        <div className="grid grid-cols-4 gap-10 group-text-gray-500 group-text-sm">
-          <p className="text-gray-300 font-extrabold tracking-widest text-xl ">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 md:gap-10 group-text-gray-500 group-text-sm">
+          <p className="text-gray-300 font-extrabold tracking-widest text-base md:text-xl">
             TechVision
           </p>
-          <p className="text-gray-300 font-extrabold tracking-widest text-xl ">
+          <p className="text-gray-300 font-extrabold tracking-widest text-base md:text-xl">
             Innovate Systems
           </p>
-          <p className="text-gray-300 font-extrabold tracking-widest text-xl ">
+          <p className="text-gray-300 font-extrabold tracking-widest text-base md:text-xl">
             Zenith Retail
           </p>
-          <p className="text-gray-300 font-extrabold tracking-widest text-xl ">
+          <p className="text-gray-300 font-extrabold tracking-widest text-base md:text-xl">
             GlobalFin
           </p>
-          <p className="text-gray-300 font-extrabold tracking-widest text-xl col-start-2 col-span-2 text-center">
+          <p className="text-gray-300 font-extrabold tracking-widest text-base md:text-xl col-span-2 sm:col-start-2 sm:col-span-2 text-center">
             NextGen Digital
           </p>
         </div>

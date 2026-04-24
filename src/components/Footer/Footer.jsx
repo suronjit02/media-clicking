@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <div className="bg-black text-white ">
       <div className="max-w-6xl mx-auto">
-        <footer className="footer gap-30 sm:footer-horizontal bg-black py-25 mt-20">
+        <footer className="footer gap-10 md:gap-30 sm:footer-horizontal bg-black py-16 md:py-25 mt-10 md:mt-20 text-center sm:text-left">
           {/* logo */}
-          <nav className="flex flex-col gap-7 max-w-sm">
+          <nav className="flex flex-col gap-7 max-w-sm items-center sm:items-start">
             <div className="flex-1 md:flex-1">
               <Link
                 to="/"
@@ -57,7 +57,7 @@ const Footer = () => {
           {/* quick link */}
           <nav>
             <h6 className="footer-title font-bold">Quick Links</h6>
-            <ul className="list-disc marker:text-[#800080] pl-5 space-y-3 text-gray-400 font-semibold">
+            <ul className="list-disc marker:text-[#800080] pl-5 space-y-3 text-gray-400 font-semibold text-left">
               <li>
                 <a className="link link-hover">Home</a>
               </li>
@@ -79,17 +79,14 @@ const Footer = () => {
           {/* service */}
           <nav>
             <h6 className="footer-title font-bold">Services</h6>
-
-            <ul className="list-disc marker:text-[#800080] pl-5 space-y-3 text-gray-400 font-semibold">
+            <ul className="list-disc marker:text-[#800080] pl-5 space-y-3 text-gray-400 font-semibold text-left">
               <li>
                 <a className="link link-hover">Product Development</a>
               </li>
               <li>
-                {" "}
                 <a className="link link-hover">Branding & Re-branding</a>
               </li>
               <li>
-                {" "}
                 <a className="link link-hover">Market Research</a>
               </li>
               <li>
@@ -129,7 +126,7 @@ const Footer = () => {
 
         <hr className="border-white/10" />
 
-        <footer className="footer flex justify-between py-10">
+        <footer className="footer flex flex-col md:flex-row justify-between py-8 md:py-10 gap-3 text-center sm:text-left">
           <aside className="flex justify-between items-center">
             <p>
               {" "}
