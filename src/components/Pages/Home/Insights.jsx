@@ -9,21 +9,21 @@ const Insights = () => {
       badge: "Marketing",
       date: "Oct 12, 2026",
       title: "The Future of AI in Digital Marketing Strategies",
-      img: "/public/img/insights/AI-img.png",
+      img: "/img/insights/AI-img.png",
     },
     {
       id: 2,
       badge: "Design",
       date: "Oct 08, 2026",
       title: "Designing for Gen Z: Typographic Trends to Watch",
-      img: "/public/img/insights/Design-for-Generation-Z.webp",
+      img: "/img/insights/Design-for-Generation-Z.webp",
     },
     {
       id: 3,
       badge: "Technology",
       date: "Sep 29, 2026",
       title: "How Predictive Intelligence Boosts E-Commerce ROI",
-      img: "/public/img/insights/ecommerce-website-optimization-featured-image.png",
+      img: "/img/insights/ecommerce-website-optimization-featured-image.png",
     },
   ];
   return (

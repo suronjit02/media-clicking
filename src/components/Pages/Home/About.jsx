@@ -8,7 +8,7 @@ const About = () => {
         <figure className="flex-1 relative w-full">
           <img
             className="rounded-3xl w-full md:h-125 object-cover overflow-hidden"
-            src="/public/img/hero//Branding-Strategy.jpg"
+            src="/img/hero//Branding-Strategy.jpg"
             alt="About Us"
           />
           <div className="h-25 w-40 bg-white rounded-2xl flex flex-col justify-center items-start p-4 shadow-md absolute -bottom-5 -right-5">

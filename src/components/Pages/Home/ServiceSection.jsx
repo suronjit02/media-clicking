@@ -12,7 +12,7 @@ const services = [
       "Focus on customer and competitor intelligence",
       "Build scalable market-ready solutions",
     ],
-    img: "/images/web.jpg",
+    img: "/img/service/Product-development.jpeg",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const services = [
       "Increase brand awareness and identity",
       "Complete visual branding solutions",
     ],
-    img: "/images/ui.jpg",
+    img: "/img/service/Branding-Strategy.jpg",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const services = [
       "Trend forecasting and insights",
       "Actionable business intelligence",
     ],
-    img: "/images/web.jpg",
+    img: "/img/service/Market-Research.jpeg",
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ const services = [
       "Event planning and execution",
       "Public affairs and stakeholder engagement",
     ],
-    img: "/images/ui.jpg",
+    img: "/img/service/PR-&-Marketing.jpeg",
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const services = [
       "SEO and digital marketing integration",
       "Scalable and modern web solutions",
     ],
-    img: "/images/web.jpg",
+    img: "/img/service/E-Commerce-&-Web-Development.jpeg",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ const services = [
       "Cost optimization and efficiency",
       "Performance tracking and analysis",
     ],
-    img: "/images/ui.jpg",
+    img: "/img/service/Media-Planning-&-Buying.jpeg",
   },
 ];
 

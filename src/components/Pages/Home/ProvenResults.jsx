@@ -5,7 +5,7 @@ import vid from "/video/provenResultBg.mp4";
 const CASES = [
   {
     id: 1,
-    video: "/public/video/Global-Tech-Rebrand.mp4",
+    video: "/video/Global-Tech-Rebrand.mp4",
     subtitle: "Branding & Strategy",
     title: "Global Tech Rebrand",
     problem:
@@ -16,7 +16,7 @@ const CASES = [
   },
   {
     id: 2,
-    video: "/public/video/E-Commerce-Acceleration.mp4",
+    video: "/video/E-Commerce-Acceleration.mp4",
     subtitle: "Digital Marketing",
     title: "E-Commerce Acceleration",
     problem: "High cart abandonment and low organic traffic.",
