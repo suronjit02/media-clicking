@@ -130,7 +130,7 @@ const Navbar = () => {
   return (
     <>
       {/* NAVBAR */}
-      <div className="navbar bg-base-100 shadow-sm px-4 md:px-35 relative z-50">
+      <div className="navbar bg-base-100 shadow-sm px-4 md:px-35 relative  sticky top-0 z-50">
         {/* desktop hamburger — left */}
         <div className="hidden md:flex">
           <button
