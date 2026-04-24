@@ -1,6 +1,7 @@
 import React from "react";
 import { CiLocationOn } from "react-icons/ci";
-import { MdArrowOutward } from "react-icons/md";
+import { IoCallOutline } from "react-icons/io5";
+import { MdArrowOutward, MdOutlineMailOutline } from "react-icons/md";
 
 const ContactSection = () => {
   return (
@@ -44,7 +45,7 @@ const ContactSection = () => {
             {/* list-2 */}
             <div className="flex items-center gap-5">
               <span className="bg-[#EAD9EA]/70 p-4 rounded-xl primary-txt text-2xl">
-                <CiLocationOn />
+                <MdOutlineMailOutline />
               </span>
               <div className="flex flex-col">
                 <p className="text-lg font-semibold text-gray-500">Email Us</p>
@@ -55,7 +56,7 @@ const ContactSection = () => {
             {/* list-3 */}
             <div className="flex items-center gap-5">
               <span className="bg-[#EAD9EA]/70 p-4 rounded-xl primary-txt text-2xl">
-                <CiLocationOn />
+                <IoCallOutline />
               </span>
               <div className="flex flex-col">
                 <p className="text-lg font-semibold text-gray-500">Call Us</p>
