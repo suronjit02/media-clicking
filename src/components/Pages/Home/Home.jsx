@@ -8,6 +8,7 @@ import JoinSection from "./JoinSection";
 import ProvenResults from "./ProvenResults";
 import Testimonials from "./Testimonials";
 import Insights from "./Insights";
+import ContactSection from "./ContactSection";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <ProvenResults />
       <Testimonials />
       <Insights />
+      <ContactSection />
     </div>
   );
 };

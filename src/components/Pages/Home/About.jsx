@@ -3,11 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <section className="flex justify-center items-center gap-15 h-full max-w-6xl mx-auto">
+      <section className="flex flex-col md:flex justify-center items-center gap-15 h-full max-w-6xl mx-auto">
         {/* Hero Image */}
         <figure className="flex-1 relative">
           <img
-            className="rounded-3xl h-125 object-cover overflow-hidden"
+            className="rounded-3xl md:h-125 object-cover overflow-hidden"
             src="/public/img/hero//Branding-Strategy.jpg"
             alt="About Us"
           />
