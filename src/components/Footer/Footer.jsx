@@ -1,10 +1,10 @@
-import React from "react";
 import { CiTwitter } from "react-icons/ci";
 import { FiFacebook, FiLinkedin } from "react-icons/fi";
 import { HiOutlineCursorClick } from "react-icons/hi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { PiInstagramLogoLight } from "react-icons/pi";
 import { Link } from "react-router";
+import FadeIn from "../motion/FadeIn";
 
 const Footer = () => {
   return (
@@ -12,7 +12,8 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <footer className="footer gap-10 md:gap-30 sm:footer-horizontal bg-black py-16 md:py-25 mt-10 md:mt-20 text-center sm:text-left">
           {/* logo */}
-          <nav className="flex flex-col gap-7 max-w-sm items-center sm:items-start">
+          <FadeIn direction="up" duration={0.7}>
+            <nav className="flex flex-col gap-7 max-w-sm items-center sm:items-start">
             <div className="flex-1 md:flex-1">
               <Link
                 to="/"
@@ -53,9 +54,11 @@ const Footer = () => {
               </li>
             </ul>
           </nav>
+          </FadeIn>
 
           {/* quick link */}
-          <nav>
+          <FadeIn direction="up" delay={0.1} duration={0.7}>
+            <nav>
             <h6 className="footer-title font-bold">Quick Links</h6>
             <ul className="list-disc marker:text-[#800080] pl-5 space-y-3 text-gray-400 font-semibold text-left">
               <li>
@@ -76,8 +79,11 @@ const Footer = () => {
             </ul>
           </nav>
 
+          </FadeIn>
+
           {/* service */}
-          <nav>
+          <FadeIn direction="up" delay={0.15} duration={0.7}>
+            <nav>
             <h6 className="footer-title font-bold">Services</h6>
             <ul className="list-disc marker:text-[#800080] pl-5 space-y-3 text-gray-400 font-semibold text-left">
               <li>
@@ -100,9 +106,11 @@ const Footer = () => {
               </li>
             </ul>
           </nav>
+          </FadeIn>
 
           {/* stay updated */}
-          <nav>
+          <FadeIn direction="up" delay={0.2} duration={0.7}>
+            <nav>
             <h6 className="footer-title font-bold">Stay Updated</h6>
             <p className="text-gray-500 text-sm mb-5">
               Subscribe for the latest insights and trends in digital media.
@@ -122,6 +130,7 @@ const Footer = () => {
               </button>
             </form>
           </nav>
+          </FadeIn>
         </footer>
 
         <hr className="border-white/10" />

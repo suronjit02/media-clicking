@@ -1,6 +1,6 @@
-import { SiSolus } from "react-icons/si";
 import { Link } from "react-router";
 import vid from "/video/provenResultBg.mp4";
+import FadeIn from "../../motion/FadeIn";
 
 const CASES = [
   {
@@ -109,7 +109,8 @@ const ProvenResults = () => {
       </div>
 
       {/* Heading */}
-      <div className="text-center mb-16 max-w-2xl mx-auto">
+      <FadeIn direction="up">
+        <div className="text-center mb-16 max-w-2xl mx-auto">
         <p className="text-xs uppercase font-bold tracking-widest text-purple-400 mb-3">
           Work + Wins
         </p>
@@ -125,11 +126,14 @@ const ProvenResults = () => {
           See how we turn complex challenges into digital victories.
         </p>
       </div>
+      </FadeIn>
 
       {/* Cards */}
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
         {CASES.map((item, i) => (
-          <CaseCard key={item.id} item={item} reverse={i % 2 !== 0} />
+          <FadeIn key={item.id} direction="up" delay={i * 0.12} duration={0.75}>
+            <CaseCard item={item} reverse={i % 2 !== 0} />
+          </FadeIn>
         ))}
       </div>
     </section>

@@ -1,5 +1,6 @@
 import React from "react";
 import CapabilitiesCard from "./card/CapabilitiesCard";
+import FadeIn from "../../motion/FadeIn";
 
 const capabilitiesLists = [
   {
@@ -110,24 +111,28 @@ const CapabilitiesSection = () => {
   return (
     <div>
       <section className="max-w-6xl mx-auto px-5 md:px-0">
-        <div className="flex flex-col items-center justify-between gap-4 mb-10 md:mb-15">
-          <p className="text-sm uppercase font-bold tracking-widest primary-txt ">
-            What Else We Offer
-          </p>
-          <h2 className="text-3xl md:text-5xl font-extrabold saira-font text-center">
-            Our{" "}
-            <span className="bg-gradient-to-r from-[#800080] to-purple-500 bg-clip-text text-transparent ">
-              Capabilities
-            </span>
-          </h2>
-          <p className="text-gray-600 text-base md:text-lg max-w-2xl text-center">
-            A comprehensive suite of scalable solutions tailored to help brands
-            connect, influence, and lead.
-          </p>
-        </div>
+        <FadeIn direction="up">
+          <div className="flex flex-col items-center justify-between gap-4 mb-10 md:mb-15">
+            <p className="text-sm uppercase font-bold tracking-widest primary-txt ">
+              What Else We Offer
+            </p>
+            <h2 className="text-3xl md:text-5xl font-extrabold saira-font text-center">
+              Our{" "}
+              <span className="bg-gradient-to-r from-[#800080] to-purple-500 bg-clip-text text-transparent ">
+                Capabilities
+              </span>
+            </h2>
+            <p className="text-gray-600 text-base md:text-lg max-w-2xl text-center">
+              A comprehensive suite of scalable solutions tailored to help brands
+              connect, influence, and lead.
+            </p>
+          </div>
+        </FadeIn>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {capabilitiesLists.map((capabilitie) => (
-            <CapabilitiesCard key={capabilitie.id} capabilitie={capabilitie} />
+          {capabilitiesLists.map((capabilitie, i) => (
+            <FadeIn key={capabilitie.id} direction="up" delay={(i % 4) * 0.08} duration={0.6}>
+              <CapabilitiesCard capabilitie={capabilitie} />
+            </FadeIn>
           ))}
         </div>
       </section>
