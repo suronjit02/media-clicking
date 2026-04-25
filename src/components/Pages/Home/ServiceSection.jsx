@@ -10,8 +10,8 @@ const services = [
       "Develop business-based products for global platform",
       "Discover, develop and commercialize new products",
       "Improve existing products and services",
-      "Focus on customer and competitor intelligence",
-      "Build scalable market-ready solutions",
+      "Focus on customer and competitor intelligence.",
+      
     ],
     img: "/img/service/Product-development.jpeg",
   },
@@ -53,7 +53,7 @@ const services = [
   },
   {
     id: 5,
-    title: "E-Commerce & Web Development",
+    title: "E-Commerce & Web",
     desc: [
       "Custom ecommerce website development",
       "Shopping cart and payment integration",
